@@ -1,0 +1,783 @@
+.tabs-link {
+  display: none;
+}
+
+.link-mobile {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+.first {
+  text-align: center;
+}
+
+.overall {
+  background-color: white;
+}
+
+.letter {
+  display: flex;
+  margin-left: 100px;
+
+}
+
+.letter h6 {
+  margin-right: 100px;
+}
+
+.wrap {
+  display: flex;
+  width: 10px;
+  column-gap: 30px;
+  margin-left: 100px;
+}
+
+.image {
+  display: flex;
+  width: 300px;
+  height: 450px;
+  column-gap: 5px;
+  margin-left: 90px;
+}
+
+.image2 {
+  display: flex;
+  width: 300px;
+  height: 450px;
+  column-gap: 5px;
+  margin-left: 90px;
+
+}
+
+.listy {
+  display: flex;
+  margin-left: 100px;
+}
+
+.listy ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin-left: 600px;
+}
+
+.cover {
+  display: flex;
+  width: 100px;
+  column-gap: 30px;
+  margin-left: 100px;
+}
+
+.content {
+
+  margin-left: 100px;
+}
+
+.seemoreproperty {
+  margin-left: 900px;
+}
+
+.wrap2 {
+  display: flex;
+  column-gap: 15px;
+  margin-left: 100px;
+}
+
+.letter p {
+  margin-left: 40px;
+}
+
+.letter h6 {
+  margin-left: 700px;
+}
+
+.parent {
+  display: flex;
+  column-gap: 30px;
+}
+
+.parent1 {
+  margin-top: 65px;
+  column-gap: 10px;
+}
+
+.can {
+  color: white;
+  margin-left: 100px;
+  gap: 18px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+}
+
+.container {
+  color: white;
+  display: flex;
+}
+
+.move {
+  color: white;
+  margin-left: 300px;
+}
+
+.move ul {
+  list-style-type: none;
+}
+
+.foot {
+  color: white;
+  margin-left: 100px;
+}
+
+footer {
+  background-color: black;
+}
+
+.packet {
+  text-align: center;
+}
+
+.package-card-container {
+  display: flex;
+  justify-content: center;
+}
+/* last child */
+.package-card-container.last {
+  padding-left: 48px;
+  justify-content: unset;
+}
+
+/* .pakage2 {
+  display: flex;
+  margin-left: 200px;
+} */
+
+.package-card {
+  max-width: 250px;
+  height: 300px;
+  padding: 10px;
+  color: white;
+}
+/* card 1 and 6 */
+.package-card-container.first > .package-card:first-child,
+.package-card-container.last > .package-card:last-child {
+  background-color: blue;
+}
+
+/* card 2 and 5 */
+.package-card-container.first > .package-card:nth-child(2),
+.package-card-container.last > .package-card:nth-child(2) {
+  padding: unset;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+/* card 3 */
+.package-card-container.first > .package-card:nth-child(3) {
+  background-color: brown;
+}
+
+/* card 4 */
+.package-card-container.last > .package-card:first-child {
+  background-color: burlywood;
+}
+
+/* card image */
+.package-card > img.tab-picture {
+  width: auto;
+  height: 100%;
+}
+
+/* card paragrah */
+.package-card > p {
+  width: 100%;
+  height: 175px;
+  line-height: 25px;
+  overflow: hidden;
+  /* text-overflow: ellipsis;
+  white-space: nowrap; */
+}
+
+/* .park1 {
+  color: white;
+  background-color: blue;
+  width: 250px;
+  padding: 10px;
+}
+
+.park3 {
+  color: white;
+  background-color: brown;
+  width: 250px;
+  padding: 10px;
+}
+
+.park4 {
+  color: white;
+  background-color: burlywood;
+  width: 250px;
+  padding: 10px;
+}
+
+.park6 {
+  color: white;
+  background-color: blue;
+  width: 250px;
+  padding: 10px;
+} */
+
+.head {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.navigate {
+  list-style-type: none;
+  display: flex;
+  column-gap: 15px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.explorenow {
+  margin-left: 300px;
+  margin-top: 40px;
+}
+
+.class {
+  display: flex;
+  margin-left: 100px;
+}
+
+.attention {
+  width: 250px;
+  margin-left: 500px;
+}
+
+
+/* Media Query */
+/* @media(min-width: 251px) and (max-width: 350.9px) {
+  .first {
+    text-align: center;
+  }
+
+  .banner {
+    border: 4px solid red;
+    width: 100%;
+    height: 150px;
+  }
+  .class{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 100px;
+
+  .overall {
+    border: 4px solid red;
+    background-color: white;
+  }
+
+  .letter {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .letter h6 {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-left: 0px;
+  }
+
+  .tab-picture {
+    width: 100%;
+  }
+
+  .image {
+    border: 4px solid red;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+    height: auto;
+    column-gap: 5px;
+    margin-left: 0px;
+  }
+  .galary{
+    border: 4px solid red;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+    height: auto;
+    column-gap: 5px;
+    margin-left: 0px;
+  }
+
+  .listy {
+    border: 4px solid red;
+    display: flex;
+    margin-left: 0px;
+  }
+
+  .listy ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 600px;
+  }
+
+  .cover {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    margin-left: 0px;
+  }
+
+  .content {
+    margin-left: 0px;
+  }
+
+  .seemoreproperty {
+    margin-left: 0px;
+  }
+
+  .wrap2 {
+    display: flex;
+    column-gap: 15px;
+    margin-left: 100px;
+  }
+
+  .letter p {
+    margin-left: 40px;
+  }
+
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 10px;
+  }
+
+  .parent1 {
+    margin-top: 65px;
+    column-gap: 10px;
+  }
+
+  .can {
+    color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+    gap: 18px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+  }
+
+  .container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .move {
+    color: white;
+    margin-left: 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .move ul {
+    list-style-type: none;
+  }
+
+  .foot {
+    color: white;
+    margin-left: 0px;
+  }
+
+  footer {
+    background-color: black;
+  }
+
+  .packet {
+    text-align: center;
+  }
+
+  .pakage1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .pakage2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .park1 {
+    color: white;
+    background-color: blue;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .park3 {
+    color: white;
+    background-color: brown;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .park4 {
+    color: white;
+    background-color: burlywood;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .park6 {
+    color: white;
+    background-color: blue;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .head {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+
+  }
+
+  .navigate {
+    list-style-type: none;
+    display: flex;
+    column-gap: 15px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .explorenow {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  */
+
+
+/* media query */
+@media(min-width:351px) and (max-width:575.9px) {
+
+  .tabs-link {
+    display: flex;
+  }
+
+  .links-wrap {
+    display: none;
+  }
+
+  .first {
+    text-align: center;
+  }
+
+  .banner {
+    width: 80%;
+    height: 150px;
+  }
+
+  .overall {
+    border: 4px solid red;
+    background-color: white;
+  }
+
+  .parent {
+    border: 4px solid red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 10px;
+  }
+
+  .parent1 {
+    border: 4px solid black;
+    margin-top: 0px;
+    column-gap: 10px;
+  }
+
+  .listy {
+    border: 4px solid red;
+    width: 100%;
+    display: flex;
+    margin-left: 0px;
+  }
+
+  .letter {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+
+  .letter h6 {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .class {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .attention {
+    width: 250px;
+    margin-left: 0px;
+  }
+
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    column-gap: 60px;
+    width: 100%;
+    row-gap: 15px;
+    margin-left: 0px;
+  }
+
+  .tab-picture {
+    border: 2px solid red;
+    width: 100%;
+  }
+
+  .image {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+    height: auto;
+    column-gap: 5px;
+    margin-left: 0px;
+  }
+
+  .galary {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+    height: auto;
+    column-gap: 5px;
+    margin-left: 0px;
+  }
+
+  .listy ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 600px;
+  }
+
+  .cover {
+    display: flex;
+    flex-direction: column;
+    column-gap: 60px;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .content {
+    margin-left: 0px;
+  }
+
+  .seemoreproperty {
+    margin-left: 0px;
+  }
+
+  .wrap2 {
+    display: flex;
+    column-gap: 15px;
+    margin-left: 100px;
+  }
+
+  .letter p {
+    margin-left: 40px;
+  }
+
+  .can {
+    color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+    gap: 18px;
+    width: 350px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 10px;
+
+  }
+
+  .container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .move {
+    color: white;
+    margin-left: 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .move ul {
+    list-style-type: none;
+  }
+
+  .foot {
+    color: white;
+    margin-left: 0px;
+  }
+
+  footer {
+    background-color: black;
+  }
+
+  .packet {
+    text-align: center;
+  }
+
+  .pakage1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .pakage2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .park1 {
+    color: white;
+    background-color: blue;
+    width: 80%;
+    padding: 10px;
+  }
+
+  .park3 {
+    color: white;
+    background-color: brown;
+    width: 80%;
+    padding: 10px;
+  }
+
+  .park4 {
+    color: white;
+    background-color: burlywood;
+    width: 80%;
+    padding: 10px;
+  }
+
+  .park6 {
+    color: white;
+    background-color: blue;
+    width: 80%;
+    padding: 10px;
+  }
+
+  .head {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 20px;
+
+  }
+
+  .navigate {
+    list-style-type: none;
+    display: flex;
+    column-gap: 15px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .explorenow {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .NAV {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+/* media query */
+/*  @media(min-width:576px) and (max-width:767.9px) {
+ } */
+
+/* media query */
+/* @media(min-width:768px) and (max-width:991.9px) {
+ } */
+
+/* media query */
+/* @media(min-width:992px) and (max-width:1200.9px) {
+ } */
+
+/* media query */
+/* @media(min-width:1201px) and (max-width:1499.9px) {
+ } */
+
+/* media query */
+/* @media(min-width:1500px) {
+ } */
